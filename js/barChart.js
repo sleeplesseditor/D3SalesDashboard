@@ -124,5 +124,5 @@ BarChart.prototype.updateVis = function(){
       .attr("height", function(d){ return (vis.height - vis.y(d.size)); })
       .attr("x", function(d){ return vis.x(d.category) })
       .attr("width", vis.x.bandwidth)
-      .attr("fill", "grey")
+      .attr("fill", "red")
 };
